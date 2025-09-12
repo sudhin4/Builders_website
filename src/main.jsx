@@ -4,6 +4,8 @@ import './index.css'
 import App from './App.jsx'
 import Header from './component/Header.jsx'
 import Mainsection from './component/Mainsection.jsx'
+import TestimonialComponent from './component/Testimonialcomponent.jsx'
+import Lastproject from './component/LastProjects.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
