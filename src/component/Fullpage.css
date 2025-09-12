@@ -441,7 +441,7 @@
     position: relative;
     bottom: 50px;
 }
-.lastprojectheadingsectiondiv{
+.lastprojectheadingsectiondiv,.headingdivvv,.headingforthedivvvconatact{
     display: flex;
     justify-content: center;
 }
@@ -449,4 +449,163 @@
     position: relative;
     top: 350px;
     
+}
+
+.headingforaboutusee,.contactheading{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 20px;
+}
+.aboutusimageforsection{
+    width: 400px;
+    height: 400px;
+}
+.paraforaboutussection{
+font-family: "Poppins";
+    font-weight: 200;
+    font-size: 17px;
+    width: 700px;
+
+}
+.imageandcontentforaboutus{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+}
+.fullaboutsectiondivvv{
+    position: relative;
+    top: 500px;
+}
+/*Contact style*/
+.imageforcontactsection{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.labelforcontact{
+    font-family: 'Poppins';
+    font-weight: 200;
+    font-size: 18px;
+}
+.inputfornamedetails{
+    width: 300px;
+    height: 20px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border: 1px solid rgba(255, 255, 255, 0.349);
+    border-radius: 5px;
+}
+.discrptioninputtt{
+    height: 100px;
+}
+.inputsectionforcontactdiv{
+    display: flex;
+    flex-direction: column;
+}
+.submitbtnforcontactsectionnn{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 20px;
+    width: 150px;
+    border-radius: 5px;
+    height: 40px;
+    padding: 5px;
+    position: relative;
+    top: 20px;
+    color: white;
+    border: none;
+    background-color: rgba(2, 22, 224, 1);
+}
+.contentforthecontactsection{
+    display: flex;
+    gap: 15%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+
+}
+.fullcontactsectiondivvv{
+    position: relative;
+    top: 550px;
+}
+/* Footer style */
+
+
+.headingfrothelogobuilders{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 25px;
+}
+.contactlogoooo{
+    font-size: 25px;
+}
+.contactdetailsfooter{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+}
+.logoandidname{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.logoforsocialmedia{
+    font-size: 24px;
+}
+.logoandsocialmediaideadiv{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    position: relative;
+    top: 20px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.913);
+}
+.footersectionfulldiv{
+    display: flex;
+    flex-direction: column;
+    line-height: 0.2;
+}
+.footeranohterrouteheading{
+    font-family: 'Poppins';
+    font-weight: 200;
+    font-size: 17px;
+    transition: text-decoration 1.0ms ease;
+}
+.footeranohterrouteheading:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.anotherroutesectionfooter{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.copyrightfont{
+    font-size: 20px;
+}
+.allrightreserveredheading{
+    font-family: 'Poppins';
+    font-weight: 200;
+    font-size: 15px;
+}
+.copyrightsfooter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    
+    justify-content: center;
+}
+.fullfootersection{
+    border-top: 1px solid rgba(255, 255, 255, 0.212);
+    position: relative;
+    top: 700px;
+    padding: 30px;
 }

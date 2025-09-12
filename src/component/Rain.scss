@@ -1,0 +1,31 @@
+.rain {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.drop {
+  position: absolute;
+  top: -10px;
+  width: 2px;
+  height: 20px;
+  background: #abc2e9;
+  opacity: 0.5;
+  animation: fall linear infinite;
+  animation-duration: var(--duration, 2s);
+  animation-delay: var(--delay, 0s);
+  left: var(--left, 50%);
+}
+
+@keyframes fall {
+  to {
+    transform: translate(var(--wind, 0px), 110vh); // supports wind drift
+  }
+}
+
+/* Optional: change wind direction on hover */
+.rain:hover .drop {
+  --wind: 40px; /* tilt drops when hovering */
+}
