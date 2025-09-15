@@ -22,13 +22,20 @@ a{
 .sideheading_route:hover {
     text-decoration: underline;
     cursor: pointer;
-
 }
 
 .anotherroutesection {
     display: flex;
     flex-direction: row;
     gap: 30px;
+}
+.headingdivvv{
+    display: flex;
+    align-items: center;
+}
+.imageandcontentforaboutus{
+    display: flex;
+    justify-content: center;
 }
 
 .fullheadersection__ {
@@ -89,8 +96,9 @@ a{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     position: relative;
-    left: 88px;
+    /* left: 88px; */
     gap: 100px;
 
 
@@ -357,8 +365,8 @@ a{
 .companyservicenumberdivvv {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-
+    justify-content: center;
+    gap: 100px;
 }
 
 .imagefortestimonial {
