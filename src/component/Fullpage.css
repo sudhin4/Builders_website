@@ -635,7 +635,8 @@ font-family: "Poppins";
     }
     .mainsectiondivv{
         flex-direction: column;
-        
+        position: relative;
+        left: 80px;
         
     }
     .LogoSectionHeader{
