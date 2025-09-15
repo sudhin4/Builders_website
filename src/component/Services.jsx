@@ -3,8 +3,8 @@ import Image2 from "../assets/Image/ServiceImage/Railway station Image.jpg";
 import Image3 from "../assets/Image/ServiceImage/Bridge Image.png";
 import Image4 from "../assets/Image/ServiceImage/Building6.jpg";
 import Image5 from "../assets/Image/ServiceImage/factories image.png";
-import Image6 from "../assets/Image/ServiceImage/Hospitalimage.png";
-import Image7 from "../assets/Image/ServiceImage/Building.jpg";
+import Image6 from "../assets/Image/ServiceImage/HospitalImage.png";
+
 import "../component/Fullpage.css";
 import Slider from "react-slick";
 import { Swiper, SwiperSlide } from "swiper/react";
