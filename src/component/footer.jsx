@@ -19,15 +19,15 @@ function Footer(){
             <h2 className="headingfrothelogobuilders">Builders</h2>
             <div className="logoandidname">
                 <MdOutlinePhone className="phonelogo contactlogoooo"/>
-                <h2 className="mobilenumberforfooter contactdetailsfooter">+91 6383965891</h2>
+               <a href="tel:+916383965891"><h2 className="mobilenumberforfooter contactdetailsfooter">+91 6383965891</h2></a> 
             </div>
             <div className="logoandidname">
                 <MdOutlineEmail className="phonelogo contactlogoooo"/>
-                <h2 className="mobilenumberforfooter contactdetailsfooter">sudhinnaveen38@gmail.com</h2>
+                <a href="mailto:sudhinnaveen38@gmail.com"><h2 className="mobilenumberforfooter contactdetailsfooter">sudhinnaveen38@gmail.com</h2></a>
             </div>
             <div className="logoandsocialmediaideadiv">
                 <FaInstagram className="logoforsocialmedia"/>
-                <FaLinkedin className="logoforsocialmedia"/>
+               <a href="http://www.linkedin.com/in/suthin-k-s-876402281"><FaLinkedin className="logoforsocialmedia"/></a> 
                 <BsTwitterX className="logoforsocialmedia"/>
                 <FaFacebookSquare className="logoforsocialmedia"/>
             </div>

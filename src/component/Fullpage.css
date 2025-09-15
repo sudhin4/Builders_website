@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
+a{
+    color: white;
+    text-decoration: none;
+}
 
 /*header style*/
 .LogoSectionHeader {
@@ -375,7 +378,7 @@
     font-family: 'Poppins';
     font-weight: 200;
     font-size: 12px;
-    width: 250px;
+    width: 210px;
     position: relative;
     bottom: 25px;
 }
@@ -419,7 +422,7 @@
     border-radius: 10px;
     transition: width 1.0s ease;
 }
-.image1forlastprojectsection:hover{
+.image1forlastprojectsection:hover,.image1forlastprojectsection:active{
     object-fit: cover;
     width: 300px;
     cursor: pointer;
@@ -608,4 +611,255 @@ font-family: "Poppins";
     position: relative;
     top: 700px;
     padding: 30px;
+}
+.mobileviewdivv{
+    display: none;
+}
+
+@media only screen and (max-width:453px){
+    .anotherroutesection{
+        display: none;
+    }
+    .fullheadersection__{
+        justify-content:left;
+        position: relative;
+        left: 30px;
+    }
+    .mainsectiondivv{
+        flex-direction: column;
+        
+        
+    }
+    .LogoSectionHeader{
+        font-size: 29px;
+    }
+    .mainheadingg{
+        font-size: 25px;
+        width: 380px;
+        position: relative;
+        left: -40px; 
+        text-align: center;
+        justify-content: center;
+    }
+    .mainparasectionpara{
+        font-size: 12px;
+        width: 340px;
+        text-align: center;
+        top: -29px;
+        left: -40px;
+        
+    }
+    .getquotesectionbtn{
+        font-size: 14px;
+        width: 100px;
+        height: 35px;
+        position: relative;
+        top: -30px;
+        left: -40px;
+        
+    }
+    .imgsectiondivv{
+        position: relative;
+        width: 350px;
+        height: 350px;
+       display: flex;
+       justify-content: center;
+        bottom: 150px;
+       left: -90px;
+    }
+    .paragraphsectiondivvv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        right: 50px;
+    }
+    .companyservicenumberdivvv{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        position: relative;
+        bottom: 120px;
+    }
+    .projectsnumbersection{
+        width: 200px;
+        border: 1px solid rgba(255, 255, 255, 0.228);
+        box-shadow: rgba(171, 171, 172, 0.128) 0px 7px 29px 0px;
+
+    }
+    .headingfortotalprojectdone{
+        font-size: 17px;
+    }
+    .laptopviewdiv{
+        display: none;
+    }
+    .imagetagourpartnersmobileview{
+        width: 100px;
+        height: 100px;
+    }
+    .mobileviewdivv{
+        display: block;
+        position: relative;
+        bottom: 100px;
+    }
+    .mobileviewpartnerss{
+        width: 100px;
+        height: 100px;
+    }
+    .mobileviewheaidngpartners{
+        font-size: 15px;
+    }
+    .imageforserviceimage01{
+        width: 100px;
+        height: 180px;
+        border-radius: 5px;
+    }
+    .labelfortheserviceimage{
+        font-size: 15px;
+        left: 20px;
+    }
+    .lableforservicecompanies{
+        position: relative;
+        font-size: 14px;
+        left: 10px;
+    }
+    .fullservicesectiondivv{
+        position: relative;
+        top: 40px;
+    }
+    .headingfor_roadmapsection{
+        font-size: 15px;
+    }
+    .Roadmapimagetagee{
+        object-fit: contain;
+    }
+    .toolsimagepng,.HammerImagepng{
+        display: none;
+    }
+    .fullRoadmapsectiondivvv{
+        position: relative;
+        top: -0px;
+    }
+    .headingforthewwdsection{
+        font-size: 15px;
+    }
+    .Namefortestimonialheadingtag{
+        font-size: 18px;
+    }
+    .discriptionfortestimonailtag{
+        font-size: 10px;
+        width: 140px;
+    }
+    .imagefortestimonial{
+        width: 160px;
+        height: 250px;
+        
+    }
+    .fullcontentandheadingtagdivvv{
+        width: 120px;
+        
+        bottom: 105px;
+    }
+    .heaidngfortestimonialheading{
+        position: relative;
+        top: -0px;
+    }
+    .fullswipersectiondivvv{
+        position: relative;
+        top: -0px;
+    }
+    .image1forlastprojectsection{
+        width: 32px;
+        border-radius: 20px;
+
+    }
+    .image1forlastprojectsection:hover,.image1forlastprojectsection:active{
+        width: 200px;
+    }
+    .fulllastprojectsectiondivvv{
+        gap: 5px;
+        position: relative;
+        bottom: 450px;
+    }
+    .lastprojectheadingsectiondiv{
+        position: relative;
+        bottom: 440px;
+    }
+    .imageandcontentforaboutus{
+        display: flex;
+        flex-direction: column;
+    }
+    .aboutusimageforsection{
+        width: 300px;
+        height: 300px;
+    }
+    .paraforaboutussection{
+        width: 95%;
+        font-size: 15px;
+    }
+    .fullaboutsectiondivvv{
+        position: relative;
+        top:60px;
+    }
+    .contentforthecontactsection{
+        display: flex;
+        flex-direction: column;
+    }
+    .imageforcontactsection{
+        width: 200px;
+        height: 200px;
+    }
+
+    .fullcontactsectiondivvv{
+        position: relative;
+        top: 120px;
+    }
+    .headingfrothelogobuilders{
+        font-size: 20px;
+    }
+    .contactlogoooo{
+        font-size: 20px;
+    }
+    .contactdetailsfooter{
+        font-size: 15px;
+    }
+    .logoforsocialmedia{
+        font-size: 20px;
+    }
+    .logoandsocialmediaideadiv{
+        gap: 10px;
+        position: relative;
+        top: 10px;
+    }
+    .footeranohterrouteheading{
+        font-size: 13px;
+        width: 80px;
+    }
+    .anotherroutesectionfooter{
+        position: relative;
+        top: 20px;
+        gap: 20px;
+    }
+    .copyrightfont{
+        font-size: 10px;
+    }
+    .allrightreserveredheading{
+        font-size: 12px;
+    }
+    .copyrightsfooter{
+        gap: 5px;
+        position: relative;
+        top: 40px;
+    }
+    .contactheading{
+        font-size: 18px;
+    }
+    .fullfootersection{
+        position: relative;
+        top: 280px;
+    }
+    
+
 }

@@ -17,7 +17,7 @@ function TestimonialComponent({ Image, Name, Details }) {
           <p className="discriptionfortestimonailtag">
             {Details
               ? Details
-              : "Loremsssd sdsdsd sdskdi teh ehehe ehreher erehre reher reh"}
+              : "Reliable, professional, and detail-oriented team delivering quality projects on time. Their commitment to safety and customer satisfaction is outstanding."}
           </p>
         </div>
       </div>

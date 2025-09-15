@@ -8,7 +8,7 @@ function Mainsection(){
             <div className="paragraphsectiondivvv">
                 <h1 className="mainheadingg">Let’s Build Your  <b className='bolddream'>“Dream”</b> Together</h1>
                 <p className="mainparasectionpara">"Building dreams with strength, precision, and trust—our construction company delivers lasting quality and innovation for every project."</p>
-                <button className="getquotesectionbtn">Get Details</button>
+                <a href="mailto:sudhinnaveen38@gmail.com"><button className="getquotesectionbtn">Get Details</button></a>
             </div>
             <div className="imgsectiondivv">
                 <Lottie 

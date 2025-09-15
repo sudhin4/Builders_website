@@ -49,3 +49,42 @@ function Testimonialcontent() {
   );
 }
 export default Testimonialcontent;
+
+export function TestimonialcontentMObileview(){
+  return(
+    <>
+    <div className="heaidngfortestimonialheading">
+        <h1 className="headingfortestimoniallll">Testimonial</h1>
+      </div>
+      <div className="fullswipersectiondivvv">
+        <Swiper
+          modules={[Autoplay, Pagination]}
+          spaceBetween={10}
+          slidesPerView={2}
+          autoplay={{ delay: 3000 }}
+          loop={true}
+          pagination={{ clickable: true, el: ".custom-pagination" }}
+          slidesPerGroup={1}
+        >
+          <SwiperSlide>
+            <TestimonialComponent Image={image1} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <TestimonialComponent Image={image2} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <TestimonialComponent Image={image3} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <TestimonialComponent Image={image4} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <TestimonialComponent Image={image6} />
+          </SwiperSlide>
+        </Swiper>
+      </div>
+    
+    
+    </>
+  )
+}
